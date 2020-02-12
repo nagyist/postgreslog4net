@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>log4netPGAppender</PackageId>
+    <Authors>Istvan Nagy</Authors>
+    <Copyright>Istvan Nagy</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Owners>Istvan Nagy</Owners>
+    <PackageProjectUrl>https://github.com/nagyist/postgreslog4net.git</PackageProjectUrl>
+    <PackageReleaseNotes>This extension creates a postgres og4net provider for log4net 2.0.8. Hotfix for jira issue : https://issues.apache.org/jira/browse/LOG4NET-538 Please use this package at your own risk</PackageReleaseNotes>
+    <Summary>This extension creates a postgres og4net provider for log4net 2.0.8. Hotfix for jira issue : https://issues.apache.org/jira/browse/LOG4NET-538 </Summary>
+    <PackageTags>postgres .netcore ado.net </PackageTags>
+    <Title>log4net extension for postgres</Title>
+    <Description>log4net extension for postgres for  .netcore</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+</Project>
